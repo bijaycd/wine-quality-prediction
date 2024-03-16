@@ -34,4 +34,4 @@ if st.button('Predict white wine quality'):
     # Predict the wine quality using the trained model
     predicted_quality = model.predict(transformed_features).flatten()[0]
 
-    st.write('The predicted wine quality is:', predicted_quality,style={"font-size": "20px"})
+    st.write('The predicted wine quality is:', predicted_quality)
